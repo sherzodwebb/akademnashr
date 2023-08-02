@@ -8,17 +8,17 @@
   </head>
   <body>
     <!-- Navbar section -->
-    <header class="header">
+    <header class="navbar">
       <a href="#">
         <img
-          class="header-logo"
+          class="navbar-logo"
           src="./img/logo.svg"
           alt=""
           width="227"
           height="60"
         />
       </a>
-      <nav class="navbar">
+      <nav>
         <ul class="navbar-list">
           <li class="navbar-item">
             <a class="navbar-link" href="#">Bosh sahifa</a>
@@ -34,26 +34,29 @@
           </li>
         </ul>
       </nav>
-      <button class="header-btn">
-        <a class="header-btn_link" href="#">Ro’yxatdan o’tish</a>
+      <button class="navbar-btn">
+        <a class="navbar-btn_link" href="#">Ro’yxatdan o’tish</a>
       </button>
       <hr />
     </header>
 
     <main>
       <!-- Hero Section -->
-      <section>
-        <div>
-          <h2>Pythonda dasturlash asoslari</h2>
-          <p>
+      <section class="hero">
+        <div class="hero-info">
+          <h2 class="hero-title">Pythonda dasturlash asoslari</h2>
+          <p class="hero-about">
             Dasturlash asoslariga oid o‘zbek tilidagi ilk eng mukammal
             qo‘llanma. Kitobning har bir bo‘limi uchun maxsus video darslar
             yozilgan bo‘lib, ularga kitobda ko‘rsatilgan QR kod orqali o‘tish
             mumkin.
           </p>
-          <a href="#">Buyurtma berish</a>
+          <button class="hero-btn">
+            <a class="hero-link" href="#">Buyurtma berish</a>
+          </button>
         </div>
         <img
+          class="hero-img"
           src="./img/python-book.jpg"
           alt="python book"
           width="510"
