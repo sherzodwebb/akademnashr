@@ -177,3 +177,22 @@
   width: 440px;
   height: 440px;
 }
+
+/* FOOTER SECTION */
+
+.footer {
+  background-color: #f8f8f8;
+}
+
+.footer-icon_item {
+  list-style-type: none;
+}
+
+.footer-item {
+  list-style-type: none;
+  color: #252420;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
