@@ -89,3 +89,41 @@
   width: 510px;
   height: 510px;
 }
+
+/* Features Section */
+
+.features-title {
+  color: #000;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 86.4px;
+  letter-spacing: 0.5px;
+  width: 435px;
+}
+
+.features-item {
+  width: 340px;
+  height: 245px;
+  list-style-type: none;
+}
+
+.features-item_title {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28.8px;
+  letter-spacing: 0.5px;
+}
+
+.features-item_about {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  width: 314px;
+  height: 72px;
+}
