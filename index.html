@@ -4,28 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Akademnashr</title>
+    <link rel="stylesheet" href="./style/mian.css" />
   </head>
   <body>
     <!-- Navbar section -->
-    <header>
+    <header class="header">
       <a href="#">
-        <img src="./img/logo.svg" alt="" width="227" height="60" />
+        <img
+          class="header-logo"
+          src="./img/logo.svg"
+          alt=""
+          width="227"
+          height="60"
+        />
       </a>
-      <nav>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio commodi
-          consequuntur quas, repellat tenetur expedita accusantium praesentium
-          quod corporis suscipit rem. Dolore quam blanditiis culpa laboriosam
-          ullam saepe numquam maiores.
-        </p>
-        <ul>
-          <li><a href="#">Bosh sahifa</a></li>
-          <li><a href="#">Kitoblar</a></li>
-          <li><a href="#">Aksiyalar</a></li>
-          <li><a href="#">Kontaktlar</a></li>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a class="navbar-link" href="#">Bosh sahifa</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#">Kitoblar</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#">Aksiyalar</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#">Kontaktlar</a>
+          </li>
         </ul>
       </nav>
-      <a href="#">Ro’yxatdan o’tish</a>
+      <button class="header-btn">
+        <a class="header-btn_link" href="#">Ro’yxatdan o’tish</a>
+      </button>
       <hr />
     </header>
 

@@ -1,0 +1,40 @@
+.header {
+  border-top: 5px solid #ff7500;
+}
+
+.header-logo {
+  width: 227px;
+  height: 59.18px;
+}
+
+.navbar-list {
+  list-style-type: none;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.header-btn {
+  width: 155px;
+  height: 39px;
+  background-color: #ff7500;
+
+  text-decoration: none;
+}
+
+.header-btn_link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15.23px;
+  letter-spacing: 0.5px;
+}
