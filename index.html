@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="./style/mian.css" />
   </head>
   <body>
-    <!-- Navbar section -->
-    <header class="navbar">
+    <!-- Header section -->
+    <header class="site-header">
       <a href="#">
         <img
-          class="navbar-logo"
+          class="header-logo"
           src="./img/logo.svg"
           alt=""
           width="227"
@@ -19,24 +19,24 @@
         />
       </a>
       <nav>
-        <ul class="navbar-list">
-          <li class="navbar-item">
+        <ul class="nav-list">
+          <li>
             <a class="navbar-link" href="#">Bosh sahifa</a>
           </li>
-          <li class="navbar-item">
+          <li>
             <a class="navbar-link" href="#">Kitoblar</a>
           </li>
-          <li class="navbar-item">
+          <li>
             <a class="navbar-link" href="#">Aksiyalar</a>
           </li>
-          <li class="navbar-item">
+          <li>
             <a class="navbar-link" href="#">Kontaktlar</a>
           </li>
         </ul>
       </nav>
-      <button class="navbar-btn">
-        <a class="navbar-btn_link" href="#">Ro’yxatdan o’tish</a>
-      </button>
+
+      <a class="main-btn" href="#">Ro’yxatdan o’tish</a>
+
       <hr />
     </header>
 
@@ -44,6 +44,7 @@
       <!-- Hero Section -->
       <section class="hero">
         <div class="hero-info">
+          <hr class="orange-line" />
           <h2 class="hero-title">Pythonda dasturlash asoslari</h2>
           <p class="hero-about">
             Dasturlash asoslariga oid o‘zbek tilidagi ilk eng mukammal
@@ -51,9 +52,8 @@
             yozilgan bo‘lib, ularga kitobda ko‘rsatilgan QR kod orqali o‘tish
             mumkin.
           </p>
-          <button class="hero-btn">
-            <a class="hero-link" href="#">Buyurtma berish</a>
-          </button>
+
+          <a class="main-btn" href="#">Buyurtma berish</a>
         </div>
         <img
           class="hero-img"
@@ -66,13 +66,15 @@
       </section>
 
       <!-- Features Section-->
-      <section class="features">
-        <hr />
+      <section>
+        <hr class="orange-line" />
         <h2 class="features-title">Nega aynan Akademnashr?</h2>
         <div>
           <ul class="features-list">
             <li class="features-item">
-              <img src="./img/Icon.svg" alt="" width="56" height="56" />
+              <div class="features-icon">
+                <img src="./img/Icon.svg" alt="" width="56" height="56" />
+              </div>
               <h3 class="features-item_title">Oson buyurtma qilish</h3>
               <p class="features-item_about">
                 Akademnashr.uz saytidan o’zingizga yoqqan kitobni sodda usulda
@@ -80,7 +82,9 @@
               </p>
             </li>
             <li class="features-item">
-              <img src="./img/Icon-1.svg" alt="" width="56" height="56" />
+              <div class="features-icon">
+                <img src="./img/Icon-1.svg" alt="" width="56" height="56" />
+              </div>
               <h3 class="features-item_title">Eng sara kitoblar</h3>
               <p class="features-item_about">
                 Akademnashr.uz saytidan o’zingizga yoqqan kitobni sodda usulda
@@ -88,7 +92,9 @@
               </p>
             </li>
             <li class="features-item">
-              <img src="./img/Icon-2.svg" alt="" width="56" height="56" />
+              <div class="features-icon">
+                <img src="./img/Icon-2.svg" alt="" width="56" height="56" />
+              </div>
               <h3 class="features-item_title">Tez yetkazib berish</h3>
               <p class="features-item_about">
                 Akademnashr.uz saytidan o’zingizga yoqqan kitobni sodda usulda
@@ -112,9 +118,8 @@
             <b>350 ming</b> so’mga (aslida 383 ming so’m) sotib olishingiz
             mumkin.
           </p>
-          <button class="aksiya-btn">
-            <a class="aksiya-link" href="#">Buyurtma berish</a>
-          </button>
+
+          <a class="main-btn" href="#">Buyurtma berish</a>
         </div>
         <img
           class="aksiya-img"
@@ -131,8 +136,8 @@
         <a href="#">
           <img src="./img/logo.svg" alt="" width="227" height="60" />
         </a>
-        <ul class="footer-icon_list">
-          <li class="footer-icon_item">
+        <ul class="footer-icon-list">
+          <li>
             <a href="#"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -179,7 +184,7 @@
             </a>
           </li>
         </ul>
-        <hr />
+        <hr class="site-footer_hr" />
       </div>
       <div>
         <ul class="footer-list">
