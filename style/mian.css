@@ -1,3 +1,11 @@
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  font-style: normal;
+}
+
 /* Header SECTION */
 .site-header {
   border-top: 5px solid #ff7500;
@@ -9,13 +17,11 @@
 }
 
 .navbar-link {
-  text-decoration: none;
   color: #000000;
   font-size: 13px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
   letter-spacing: 1px;
+  text-decoration: none;
   text-transform: uppercase;
 }
 
@@ -24,12 +30,10 @@
 }
 
 .main-btn {
-  text-decoration: none;
   color: #ffffff;
   font-size: 13px;
   font-weight: 700;
-  line-height: 15.23px;
-  letter-spacing: 0.5px;
+  text-decoration: none;
   background-color: #ff7500;
 }
 
@@ -52,19 +56,14 @@
 .hero-title {
   color: #ffffff;
   font-size: 40px;
-  font-style: normal;
   font-weight: 700;
   line-height: 48px;
-  letter-spacing: 0.5px;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
 }
 
 .hero-about {
   color: #ffffff;
-  font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.5px;
 }
 
 .hero-img {
@@ -75,13 +74,12 @@
 /* Features Section */
 
 .features-title {
+  width: 435px;
   color: #000;
   font-size: 72px;
-  font-style: normal;
   font-weight: 700;
   line-height: 86.4px;
-  letter-spacing: 0.5px;
-  width: 435px;
+  font-family: "Roboto Condensend", "Arial", sans-serif;
 }
 
 .features-list li {
@@ -100,23 +98,18 @@
 }
 
 .features-item_title {
+  font-family: "Roboto Condensed", "Arial", sans-serif;
   color: #000;
   font-size: 24px;
-  font-style: normal;
   font-weight: 700;
   line-height: 28.8px;
-  letter-spacing: 0.5px;
 }
 
 .features-item_about {
   color: #000;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.5px;
   width: 314px;
   height: 72px;
+  font-weight: 400;
 }
 
 /* AKSIYA SECTION  */
@@ -133,18 +126,18 @@
   font-size: 40px;
   font-weight: 700;
   line-height: 48px;
-  letter-spacing: 0.5px;
   text-align: left;
   color: #ffffff;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
 }
 
 .aksiya-about {
   color: #fff;
-  font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.5px;
+}
+
+.aksiya-about b {
+  color: #ff7500;
 }
 
 .aksiya-img {
@@ -176,8 +169,9 @@
 
 .footer-item {
   color: #252420;
-  font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
+}
+
+.lorem {
+  text-transform: capitalize;
 }
