@@ -14,9 +14,18 @@ body {
   border-top: 5px solid #ff7500;
 }
 
-.header-logo {
+.site-logo {
   width: 227px;
   height: 59.18px;
+  transition: opacity 0.4s ease;
+}
+
+.site-logo:hover {
+  opacity: 0.8;
+}
+
+.site-logo:active {
+  opacity: 0.6;
 }
 
 .navbar-link {
@@ -26,6 +35,15 @@ body {
   letter-spacing: 1px;
   text-decoration: none;
   text-transform: uppercase;
+  transition: color 0.4s ease, opacity 0.4s ease;
+}
+
+.navbar-link:hover {
+  color: #ff7500;
+}
+
+.navbar-link:active {
+  opacity: 0.6;
 }
 
 .nav-list {
@@ -39,6 +57,15 @@ body {
   font-weight: 700;
   text-decoration: none;
   background-color: #ff7500;
+  transition: opacity 0.4s ease;
+}
+
+.main-btn:hover {
+  opacity: 0.8;
+}
+
+.main-btn:active {
+  opacity: 0.6;
 }
 
 .site-header-right {
@@ -182,6 +209,19 @@ body {
   list-style-type: none;
 }
 
+.footer-icon {
+  color: #252420;
+  transition: color 0.4s ease, opacity 0.4s ease;
+}
+
+.footer-icon:hover {
+  color: #ff7500;
+}
+
+.footer-icon:active {
+  opacity: 0.6;
+}
+
 .footer-list {
   width: 224px;
   list-style-type: none;
@@ -200,6 +240,15 @@ body {
 .footer-item {
   color: #252420;
   font-weight: 400;
+  transition: color 0.4s ease, opacity 0.4s ease;
+}
+
+.footer-item:hover {
+  color: #ff7500;
+}
+
+.footer-item:active {
+  opacity: 0.6;
 }
 
 .lorem {
