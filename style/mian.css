@@ -6,6 +6,11 @@ body {
   font-style: normal;
 }
 
+*:focus {
+  outline: 3px dashed #ff7500;
+  outline-offset: 3px;
+}
+
 /* Header SECTION */
 .site-header {
   display: flex;
@@ -227,6 +232,10 @@ body {
   list-style-type: none;
 }
 
+.footer-list a {
+  text-decoration: none;
+}
+
 .site-footer_hr {
   width: 1100px;
   height: 2px;
@@ -237,7 +246,7 @@ body {
   display: flex;
 }
 
-.footer-item {
+.footer-item a {
   color: #252420;
   font-weight: 400;
   transition: color 0.4s ease, opacity 0.4s ease;
