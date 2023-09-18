@@ -4,6 +4,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.5px;
   font-style: normal;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 *:focus {
@@ -11,13 +17,26 @@ body {
   outline-offset: 3px;
 }
 
+.sites {
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+  max-width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Header SECTION */
+
+.sitenav {
+  border-top: 5px solid #ff7500;
+}
+
 .site-header {
   display: flex;
   align-items: center;
   padding: 16px 0;
   justify-content: space-between;
-  border-top: 5px solid #ff7500;
 }
 
 .site-logo-a {
@@ -101,11 +120,14 @@ body {
 
 /* HERO SECTION */
 
+.hero {
+  background-color: #252420;
+}
+
 .site-hero {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #252420;
 }
 
 .orange-line {
@@ -139,13 +161,17 @@ body {
 .hero-img {
   width: 510px;
   height: 510px;
+  box-shadow: 24px 24px 0px 0px rgba(255, 117, 0, 0.6);
   border-radius: 8px;
 }
 
 /* Features Section */
 
-.features {
+.site-features {
   padding: 210px 0;
+}
+
+.features {
 }
 
 .features-title {
@@ -208,9 +234,18 @@ body {
 
 /* AKSIYA SECTION  */
 
+.site-aksiya {
+  height: 699px;
+}
+
 .aksiya {
   display: flex;
   align-items: center;
+  width: 1100px;
+  box-sizing: border-box;
+  padding-right: 64px;
+  padding-left: 64px;
+  border-radius: 12px;
   justify-content: space-between;
   background-color: #252420;
 }
@@ -257,10 +292,13 @@ body {
 
 /* FOOTER SECTION */
 
-.footer {
-  display: block;
+.site-footer {
   background-color: #f8f8f8;
   height: 507px;
+}
+
+.footer {
+  display: block;
 }
 
 .site-footer-top {
@@ -317,7 +355,8 @@ body {
 }
 
 .site-footer_hr {
-  width: 1100px;
+  width: 100%;
+  max-width: 1100px;
   margin-top: 40px;
   margin-bottom: 64px;
   height: 2px;
