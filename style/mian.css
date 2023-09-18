@@ -303,7 +303,7 @@ body {
 
 .site-footer-top {
   display: flex;
-  padding: 54px 0 40px;
+  padding: 54px 0 0px;
   justify-content: space-between;
 }
 
@@ -346,6 +346,14 @@ body {
   margin: 0 65px 0 0;
 }
 
+.footer-list li {
+  margin-bottom: 16px;
+}
+
+.footer-list li:last-child {
+  margin-bottom: 0;
+}
+
 .footer-list:last-child {
   margin-right: 0;
 }
@@ -360,6 +368,7 @@ body {
   margin-top: 40px;
   margin-bottom: 64px;
   height: 2px;
+  border: none;
   background-color: rgba(37, 36, 32, 0.5);
 }
 
